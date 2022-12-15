@@ -27,7 +27,7 @@ main {
 }
 
 .galeria {    
-    max-width: 100vw;
+    max-width: 600px;
     height: 100vh;
     margin: 20px auto;
     position: relative;
