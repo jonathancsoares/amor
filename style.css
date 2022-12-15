@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    
+    --cor0:#8C0327;
+    --cor1:#D9436B;
+    --cor2:#732240;
+    --cor3:#F277A4;
+    --cor4:#B3ECF2;
+
+    --fonte1:'Oswald', sans-serif;
+    --fonte2:'Rubik Mono One', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family:'Orbitron', sans-serif;
+    background-color: var(--cor3);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor0));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+header h1 {
+    font-family: var(--fonte2);
+    font-size: clamp(1.7em, 3em, 4vw);
+}
+
+header p {
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: var(--cor2);
+    padding-bottom: 10px;    
+}
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    margin-left: auto;       
+    padding: 10px 30px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    
+}
+
+main {
+    max-width: 1000px;
+    min-width: 260px;
+    margin: auto;
+    padding: 25px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-align: justify;
+    border-radius: 0px 0px 15px 15px;
+}
+
+article p {
+    font-size: 1.5em;
+}
+main img {
+    width: 90%;    
+    display: block;
+    margin: auto;
+    padding: 30px 30px 0px 30px;
+    border-radius: 100px;
+}
+
