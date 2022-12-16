@@ -27,8 +27,8 @@ main {
 }
 
 .galeria {    
-    max-width: 600px;
-    height: 100vh;
+    max-width: 620px;
+    height: 1000px;
     margin: 20px auto;
     position: relative;
     overflow: hidden;
@@ -48,16 +48,12 @@ main {
         opacity: 1;
         transform: scale(1.1,1.1);
     }
-    35% {
-        opacity: 1;
-    }
+    
     50%{
         opacity: 1;
     }
 
-    65% {
-        opacity: .75;
-    }
+    
 }
 
 
@@ -98,4 +94,18 @@ main {
     animation-delay: 65s;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    margin-left: auto;       
+    padding: 10px 30px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
 
+a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    
+}
