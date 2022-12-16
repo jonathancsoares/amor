@@ -21,13 +21,13 @@ body {
 
 main {
     background-color: white;
-    width: 90%;
+    width: 100vw;
     margin: 0 auto;
     padding: 30px;
 }
 
 .galeria {    
-    max-width: 620px;
+    width: 800px;
     height: 1000px;
     margin: 20px auto;
     position: relative;
@@ -98,7 +98,7 @@ a {
     text-decoration: none;
     font-weight: bolder;
     color: black;
-    margin-left: auto;       
+    margin-left: 100px;       
     padding: 10px 30px;
     border-radius: 2px;
     transition-duration: 0.3s;
@@ -108,4 +108,8 @@ a:hover {
     background-color: var(--cor3);
     color: var(--cor4);
     
+}
+
+audio {
+    margin-left: 100px;
 }
