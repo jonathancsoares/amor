@@ -39,12 +39,12 @@ main {
     position: absolute;
     opacity: 0;
     animation-name: animacao;
-    animation-duration: 65s;
+    animation-duration: 120s;
     animation-iteration-count: infinite;
 }
 
 @keyframes animacao {
-    25%{
+    10%{
         opacity: 1;
         transform: scale(1.1,1.1);
     }
@@ -61,37 +61,37 @@ main {
     animation-delay: 10s;
 }
 .foto:nth-child(3) {
-    animation-delay: 15s;
-}
-.foto:nth-child(4) {
     animation-delay: 20s;
 }
-.foto:nth-child(5) {
-    animation-delay: 25s;
-}
-.foto:nth-child(6) {
+.foto:nth-child(4) {
     animation-delay: 30s;
 }
-.foto:nth-child(7) {
-    animation-delay: 35s;
-}
-.foto:nth-child(8) {
+.foto:nth-child(5) {
     animation-delay: 40s;
 }
-.foto:nth-child(9) {
-    animation-delay: 45s;
-}
-.foto:nth-child(10) {
+.foto:nth-child(6) {
     animation-delay: 50s;
 }
-.foto:nth-child(11) {
-    animation-delay: 55s;
-}
-.foto:nth-child(12) {
+.foto:nth-child(7) {
     animation-delay: 60s;
 }
+.foto:nth-child(8) {
+    animation-delay: 70s;
+}
+.foto:nth-child(9) {
+    animation-delay: 80s;
+}
+.foto:nth-child(10) {
+    animation-delay: 90s;
+}
+.foto:nth-child(11) {
+    animation-delay: 100s;
+}
 .foto:nth-child(12) {
-    animation-delay: 65s;
+    animation-delay: 110s;
+}
+.foto:nth-child(12) {
+    animation-delay: 120s;
 }
 
 a {
